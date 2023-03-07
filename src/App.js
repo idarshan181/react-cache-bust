@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import packageJson from "../package.json";
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          {packageJson.version}
         </a>
         <h5>Second Commit</h5>
+        <a href="https://www.google.com">Google</a>
       </header>
       <section>
         <h5>First Commit</h5>
