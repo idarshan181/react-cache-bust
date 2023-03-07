@@ -17,9 +17,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          {packageJson.version}
         </a>
-        <h5>Second Commit</h5>
+        <h5>{packageJson.version}</h5>
         <a href="https://www.google.com">Google</a>
       </header>
       <section>
@@ -28,9 +27,10 @@ function App() {
       <section>
         <h5>Third Commit</h5>
       </section>
-      {/* <section>
+      <section>
         <h5>Fourth Commit</h5>
       </section>
+      {/* 
       <section>
         <h5>Five Commit</h5>
       </section> */}
